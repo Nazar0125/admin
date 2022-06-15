@@ -1,0 +1,25 @@
+.header {
+  height: 100%;
+  min-height: 100vh;
+  min-width: 100%;
+  width: 250px;
+  background: -webkit-gradient(linear, left top, right top, from(#194AA2), color-stop(134.8%, #00AEEF));
+  background: linear-gradient(90deg, #194AA2 0%, #00AEEF 134.8%);
+}
+
+.header-fixed {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100%;
+  width: 250px;
+}
+/*# sourceMappingURL=header.css.map */

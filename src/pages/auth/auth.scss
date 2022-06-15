@@ -1,0 +1,123 @@
+.auth {
+    background: linear-gradient(90deg, #194AA2 0%, #00AEEF 134.8%);
+    width: 100%;
+    max-width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+.auth-logo {
+    position: absolute;
+    left: 70px;
+    top: 48px;
+}
+.auth-wrapper {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.auth-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #FFFFFF;
+    padding-top: 108px;
+}
+.auth-block {
+    width: 518px;
+    max-width: 518px;
+    background: #FFFFFF;
+    border: 1px solid #F2F2F2;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    padding: 39px 32px;
+    margin-top: 48px;
+}
+.auth-block__form {
+    margin: 24px 0;
+}
+.auth-block__title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #194AA2;
+    margin-bottom: 24px;
+}
+.auth-block__text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.08px;
+    color: #828282;
+}
+.auth-button {
+    background: #194AA2;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    outline: none;
+    border: none;
+    padding: 16px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.auth-button:hover {
+    background: #1b50b3;
+}
+.auth-input {
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 100%;
+    padding: 16px 24px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+}
+.auth-input:focus {
+    border: 1px solid #00AEEF;
+    box-shadow: 0px 4px 11px rgba(0, 92, 102, 0.1);
+    border-radius: 8px;
+}
+.auth-input__error {
+    border: 1px solid red;
+}
+.auth-input__title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #00AEEF;
+}
+.auth-input__title {
+    margin-top: 24px;
+}
+.mt-24 {
+    margin-top: 24px;
+}
+.auth-loding {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

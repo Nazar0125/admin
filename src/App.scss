@@ -1,0 +1,73 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+body {
+  overflow-y: scroll;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+i {
+  margin: 0;
+  padding: 0;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+.btn {
+  border: none;
+  padding: 0;
+  margin: 0;
+  background-color: transparent
+}
+.app {
+  display: grid;
+  grid-template-columns: 250px 1fr;
+}
+.main {
+  width: 100%;
+  max-width: 100%;
+  background: #fafafc;
+  padding: 50px 39px;
+}
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.mt-30 {
+  margin-top: 30px;
+}
+.mt-38 {
+  margin-top: 38px;
+}
+.mb-35 {
+  margin-bottom: 35px;
+}
+@import url(./style/screen.scss);
+@import url(./style/slide.scss);
+@import url(./style/modalImg.scss);
+@import url(./components/components.scss);
+@import url(./pages/pages.scss);

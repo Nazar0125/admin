@@ -1,0 +1,37 @@
+input {
+	outline: none;
+}
+
+input[type=search] {
+	font-family: inherit;
+	font-size: 100%;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #333333;
+}
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button {
+	display: none; 
+}
+input[type=search] {
+	padding: 9px 10px 9px 32px;
+	width: 277px;
+	background: #FAFAFC url(../../img/search.svg) no-repeat 9px center;
+    border: 1px solid #F0EFF4;
+	
+	-webkit-border-radius: 10px;
+	   -moz-border-radius: 10px;
+	        border-radius: 10px;
+	
+	-webkit-transition: all .5s;
+	   -moz-transition: all .5s;
+	        transition: all .5s;
+}
+input[type=search]:focus {
+	width: 277px;
+	background-color: #fff;
+	border-color: #1949a225;
+}

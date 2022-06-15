@@ -1,0 +1,39 @@
+.deleteBtn {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #EC8383;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #FFFFFF;
+  border: 1px solid #EC8383;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 100px;
+  padding: 9px 17px;
+  cursor: pointer;
+}
+
+.deleteBtn span {
+  padding-left: 10px;
+}
+
+.deleteBtn:hover {
+  color: #FFFFFF;
+  background: #EC8383;
+  border: 1px solid #FFFFFF;
+}
+
+.deleteBtn:hover svg path {
+  fill: #FFFFFF;
+}
+/*# sourceMappingURL=deleteBtn.css.map */

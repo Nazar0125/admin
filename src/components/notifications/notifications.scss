@@ -1,0 +1,41 @@
+.notifications-block {
+    position: fixed;
+    top: 5%;
+    right: 5%;
+}
+
+.notifications {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    width: 300px;
+    max-width: 300px;
+    border-bottom: 3px solid #03cc14;
+    z-index: 9999999999;
+    margin-bottom: 10px;
+}
+.notifications-error {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    width: 300px;
+    max-width: 300px;
+    border-bottom: 3px solid red;
+    z-index: 9999999999;
+    margin-bottom: 10px;
+}
+
+.notifications-left {
+    display: flex;
+    justify-content: space-between;
+}
+.notifications-text {
+    padding: 0 10px;
+}
+.notifications-right {
+    cursor: pointer;
+}

@@ -1,0 +1,332 @@
+.user-datas {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  grid-gap: 19px;
+}
+
+.user-data {
+  background: #FFFFFF;
+  border: 1px solid #F0EFF4;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 20px;
+  padding: 30px 40px;
+}
+
+.user-data__title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  color: #194AA2;
+  margin-bottom: 27px;
+}
+
+.user-data__list {
+  margin-bottom: 20px;
+}
+
+.user-data__list:last-child {
+  margin-bottom: 0;
+}
+
+.user-data__text {
+  margin-bottom: 10px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  color: #333333;
+}
+
+.breadcrumbs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.breadcrumbs-list {
+  padding-left: 10px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #A1A1A1;
+}
+
+.breadcrumbs-list:last-child {
+  font-weight: 500;
+  color: #194AA2;
+}
+
+.breadcrumbs-list::after {
+  content: "/";
+  padding-left: 10px;
+}
+
+.breadcrumbs-list:last-child::after {
+  display: none;
+}
+
+.comments {
+  background: #FFFFFF;
+  border: 1px solid #F0EFF4;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 20px;
+  padding: 30px 40px;
+  margin-bottom: 20px;
+}
+
+.comments-title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 44px;
+  color: #194AA2;
+}
+
+.comments-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 44px;
+  color: #000000;
+}
+
+.comments-item span {
+  padding-right: 5px;
+}
+
+.comments-text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 44px;
+  color: #000000;
+}
+
+.total {
+  background: #FFFFFF;
+  border: 1px solid #F0EFF4;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 20px;
+  padding: 30px 40px;
+  margin-bottom: 20px;
+}
+
+.total-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.total-name {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 44px;
+  color: #194AA2;
+}
+
+.total-price {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 44px;
+  color: #194AA2;
+}
+
+.application-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.application-footer__left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.application-save {
+  border: none;
+  padding: 9px 42px;
+  background-color: #194AA2;
+  border-radius: 100px;
+  cursor: pointer;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+  outline: none;
+}
+
+.application-save:hover {
+  background-color: #082a6b;
+}
+
+.modules {
+  padding: 30px 40px;
+  background: #FFFFFF;
+  border: 1px solid #F0EFF4;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 20px;
+  margin: 20px 0;
+}
+
+.modules-tabel {
+  margin-top: 31px;
+}
+
+.modules-talel__header {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 40px 1fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.4fr;
+      grid-template-columns: 40px 1fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.4fr;
+  background-color: #F6F4FB;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.modules-talel__head {
+  padding: 14px 20px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #333333;
+}
+
+.modules-talel__bodys {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 40px 1fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.4fr;
+      grid-template-columns: 40px 1fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.4fr;
+  /*  border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;*/
+}
+
+.modules-talel__body {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 16px;
+  color: #333333;
+  border: 1px solid #D4E6FF;
+  border-top: none;
+  border-left: none;
+}
+
+.modules-talel__body:first-child {
+  border-left: 1px solid #D4E6FF;
+}
+
+.modules-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.modules-panel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.modul-edit {
+  margin-right: 5px;
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.modules-talel__center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.modules-talel__center:last-child {
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
+.modules-talel__p {
+  padding: 10px 5px;
+  padding-left: 20px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 16px;
+  color: #333333;
+}
+
+.mr-20 {
+  margin-right: 20px;
+}
+
+.modules-textare__padding {
+  padding: 5px 10px;
+}
+
+.he-50 {
+  height: 50%;
+}
+
+.he-100 {
+  height: 100%;
+}
+/*# sourceMappingURL=updateApplication.css.map */
